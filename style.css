@@ -1,0 +1,67 @@
+.portada img {
+  max-height: 80vh;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.portada h1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 15px;
+  text-align: right;
+  color: rgb(75, 105, 130);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.presentation {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.explanation {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  max-width: 800px;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.primario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 30px 30px 30px 30px;
+}
+
+.contact {
+  padding-top: 7%;
+  font-weight: 600;
+  padding-bottom: 7%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-me {
+  display: inline-block;
+  font-size: 3em;
+  align-self: center;
+  letter-spacing: 1.2rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.wp-icon button {
+  background-color: lightgreen;
+}
